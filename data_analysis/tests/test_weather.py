@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from ..module.weather_code import WeatherDataContainer
+from data_analysis.module.weather_code import WeatherDataContainer
 
 
 class TestWeatherData(unittest.TestCase):
