@@ -39,9 +39,8 @@ class DataAnalyzer:
         if ma_column not in self.data.columns:
             self.moving_average(window)
 
-        self.data[f'autocorrelation_lag_{lag}'] = self.data[ma_column].rolling(window=window).apply(
-            lambda x: x.autocorr(lag=lag) if len(x) >= lag else np.nan
-        )
+        for curr_lag in range(1, lag+1):
+            self.data[f'autocorrelation_lag_{curr_lag}'] = self.data[ma_column].autocorr(lag=curr_lag)
 
 
 if __name__ == "__main__":
