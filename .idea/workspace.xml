@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1849632d-2b8d-4fcc-a983-4cf769a4d805" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_analysis/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis/loader/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/module/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/module/data_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/module/data_analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/module/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/module/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/module/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/module/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/module/save_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/module/save_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/module/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/tests/test_weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/loader/tests/test_weather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +73,11 @@
       <recent name="$PROJECT_DIR$/data_analysis/module" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_analysis/loader" />
       <recent name="$PROJECT_DIR$/first_lab_work" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_weather.TestWeatherData">
+  <component name="RunManager">
     <configuration name="data_analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="6403stepanovms" />
       <option name="ENV_FILES" value="" />
@@ -115,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for data_analysis.tests.test_weather.TestWeatherData" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for data_analysis.loader.tests.test_weather.TestWeatherData" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="6403stepanovms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,49 +136,49 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;data_analysis.tests.test_weather.TestWeatherData&quot;" />
+      <option name="_new_target" value="&quot;data_analysis.loader.tests.test_weather.TestWeatherData&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_weather.TestWeatherData" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for data_analysis.loader.tests.test_weather.TestWeatherData" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="6403stepanovms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_analysis/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_analysis/loader/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_weather.TestWeatherData&quot;" />
+      <option name="_new_target" value="&quot;data_analysis.loader.tests.test_weather.TestWeatherData&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_weather.TestWeatherData.test_moving_average" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for data_analysis.loader.tests.test_weather.TestWeatherData.test_moving_average" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="6403stepanovms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_analysis/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_analysis/loader/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_weather.TestWeatherData.test_moving_average&quot;" />
+      <option name="_new_target" value="&quot;data_analysis.loader.tests.test_weather.TestWeatherData.test_moving_average&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_weather.TestWeatherData" />
-        <item itemvalue="Python tests.Python tests for test_weather.TestWeatherData.test_moving_average" />
+        <item itemvalue="Python tests.Python tests for data_analysis.loader.tests.test_weather.TestWeatherData" />
+        <item itemvalue="Python tests.Python tests for data_analysis.loader.tests.test_weather.TestWeatherData.test_moving_average" />
         <item itemvalue="Python.data_fetcher" />
         <item itemvalue="Python.data_analyzer" />
-        <item itemvalue="Python tests.Python tests for data_analysis.tests.test_weather.TestWeatherData" />
+        <item itemvalue="Python tests.Python tests for data_analysis.loader.tests.test_weather.TestWeatherData" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733216197631</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix">
+      <option name="closed" value="true" />
+      <created>1733220428887</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733220428887</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +299,8 @@
     <MESSAGE value="бубубу" />
     <MESSAGE value="рефактор структуры" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
