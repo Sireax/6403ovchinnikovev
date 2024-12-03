@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from data_analysis.module.weather_code import WeatherDataContainer
+from data_analysis.module.weather_code import DataAnalyzer
 
 
 class TestWeatherData(unittest.TestCase):
@@ -10,7 +10,7 @@ class TestWeatherData(unittest.TestCase):
             'tavg': [20, 22, 21, 23, 24, 22, 20, 19, 21, 23]
         }
         self.df = pd.DataFrame(data)
-        self.weather_data = WeatherDataContainer(self.df)
+        self.weather_data = DataAnalyzer(self.df)
 
     def test_get_data(self):
         result = self.weather_data.get_data()

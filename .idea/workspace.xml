@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1849632d-2b8d-4fcc-a983-4cf769a4d805" name="Changes" comment="Выполнен рефактор, выполнена вторая лабораторная работа">
+    <list default="true" id="1849632d-2b8d-4fcc-a983-4cf769a4d805" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data_analysis/module/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis/module/data_analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_analysis/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_analysis/test_timerow/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_analysis/test_timerow/test_weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/tests/test_weather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/configs/logging.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/data_fetcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/module/weather_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/notebook.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/service/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/service/realtime_data_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/tests/test_weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/tests/test_weather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "lab2",
     "last_opened_file_path": "/Users/matveystepanov/6403stepanovms/data_analysis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,6 +78,29 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for test_weather.TestWeatherData.test_moving_average">
+    <configuration name="data_analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="6403stepanovms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_analysis/module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_analysis/module/data_analyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="data_fetcher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="6403stepanovms" />
       <option name="ENV_FILES" value="" />
@@ -85,29 +116,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_analysis/data_fetcher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="weather_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="6403stepanovms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_analysis/module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_analysis/module/weather_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +177,7 @@
         <item itemvalue="Python tests.Python tests for test_weather.TestWeatherData.test_moving_average" />
         <item itemvalue="Python tests.Python tests for test_weather.TestWeatherData" />
         <item itemvalue="Python.data_fetcher" />
-        <item itemvalue="Python.weather_code" />
+        <item itemvalue="Python.data_analyzer" />
         <item itemvalue="Python tests.Python tests for data_analysis.tests.test_weather.TestWeatherData" />
       </list>
     </recent_temporary>
@@ -203,7 +211,8 @@
       <workItem from="1733147405026" duration="1891000" />
       <workItem from="1733203125449" duration="511000" />
       <workItem from="1733203661448" duration="2011000" />
-      <workItem from="1733210616669" duration="396000" />
+      <workItem from="1733210616669" duration="412000" />
+      <workItem from="1733214804784" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="Выполнен рефактор, выполнена вторая лабораторная работа">
       <option name="closed" value="true" />
@@ -245,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733210692276</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="бубубу">
+      <option name="closed" value="true" />
+      <created>1733211020586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733211020586</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,9 +270,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Выполнен рефактор, выполнена первая лабораторная работа" />
-    <MESSAGE value="Выполнен рефактор, выполнена вторая лабораторная работа" />
     <MESSAGE value="бебебе" />
-    <option name="LAST_COMMIT_MESSAGE" value="бебебе" />
+    <MESSAGE value="Выполнен рефактор, выполнена вторая лабораторная работа" />
+    <MESSAGE value="бубубу" />
+    <option name="LAST_COMMIT_MESSAGE" value="бубубу" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
