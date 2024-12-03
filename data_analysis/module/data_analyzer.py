@@ -35,11 +35,13 @@ class DataAnalyzer:
 
     @type_check((int, int,))
     def auto_corr(self, lag: int, window: int) -> None:
-        ma_column = f'moving_average_{window}'
-        if ma_column not in self.data:
+        ma_column = 'moving_average_' + str(window)
+        if ma_column not in self.data.columns:
             self.moving_average(window)
-        autocorr_value = self.data[ma_column].autocorr(lag)
-        self.data[f'autocorrelation_lag_{lag}'] = autocorr_value
+
+        self.data[f'autocorrelation_lag_{lag}'] = self.data[ma_column].rolling(window=window).apply(
+            lambda x: x.autocorr(lag=lag) if len(x) >= lag else np.nan
+        )
 
 
 if __name__ == "__main__":
