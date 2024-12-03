@@ -9,7 +9,6 @@ setup(
     url='https://github.com/Sireax/6403ovchinnikovev',
     packages=find_packages(),
     install_requires=[
-        'meteostat',
         'openpyxl',
         'numpy',
         'jupyterlab',

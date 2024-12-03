@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1849632d-2b8d-4fcc-a983-4cf769a4d805" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_analysis/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_analysis/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "lab2",
+    "git-widget-placeholder": "lab3",
     "last_opened_file_path": "/Users/matveystepanov/6403stepanovms/data_analysis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
